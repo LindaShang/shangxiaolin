@@ -1,0 +1,6 @@
+<urlrewrite default-match-type="wildcard">
+	<rule>
+		<from>/*</from>
+		<to last="true">/adminService/login.action</to>
+	</rule>
+</urlrewrite>
